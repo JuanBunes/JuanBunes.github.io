@@ -48,10 +48,13 @@
                 <p>{{ content }}</p>
                 <div class="row">
                     <div class="6u 12u$(small)">
-                        <p>I am a fifth year Information Systems Engineering student at the Universidad Nacional del Sur in Bahia Blanca, Argentina. I have a passion for crafting innovative solutions. Proficient in a diverse range of languages and technologies, including but not limited to Java, Python, and web development frameworks. Proven track record of successful project management, demonstrated through the creation of a dynamic e-commerce platform integrating Laravel, PostgreSQL, Node.js, and React. Adaptable and quick to learn, I am ready to bring my enthusiasm and skills to a dynamic work environment. Excited about opportunities to contribute to cutting-edge projects and collaborate with talented teams in the tech industry. Open to exploring challenging roles that foster continued growth and development.</p>
+                        <p>My name is Juan Francisco Buñes, I am a fifth year Information Systems Engineering student at the Universidad Nacional del Sur in Bahia Blanca, Argentina. I have a passion for crafting innovative solutions. Proficient in a diverse range of languages and technologies, including but not limited to Java, Python, and web development frameworks. Proven track record of successful project management, demonstrated through the creation of a dynamic e-commerce platform integrating Laravel, PostgreSQL, Node.js, and React. Adaptable and quick to learn, I am ready to bring my enthusiasm and skills to a dynamic work environment. Excited about opportunities to contribute to cutting-edge projects and collaborate with talented teams in the tech industry. Open to exploring challenging roles that foster continued growth and development.</p>
                     </div>
                     <div class="6u$ 12u$(small)">
-                        <img src="assets/images/pic04.jpg" alt="Juan Pic">
+                        <div class="image-container">
+                            <img src=assets/images/gif02.gif alt="Your Image">
+                            <div class="fading-border"></div>
+                          </div>
                     </div> 
                 </div>
             </div>
@@ -61,7 +64,7 @@
         <section id="two">
             <div class="inner">
                 <header class="major">
-                    <h1>My Projects</h1>
+                    <h1>Highlighted projects</h1>
                 </header>
             </div>
             {% include tiles.html %}
@@ -75,5 +78,45 @@
     {% include footer.html %}
 
 </body>
+
+<style>
+    html, body {
+      height: 100%;
+    }
+    
+    img.two {
+      height: 50%;
+      width: 50%;
+    }
+
+    .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .fading-border {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      box-shadow: 
+        0 0 10px rgba(255, 255, 255, 0),
+        0 0 20px rgba(255, 255, 255, 0),
+        0 0 30px rgba(255, 255, 255, 0),
+        0 0 40px rgba(255, 255, 255, 0),
+        0 0 50px rgba(255, 255, 255, 0);
+      transition: box-shadow 0.3s ease-in-out; 
+    }
+
+    .image-container:hover .fading-border {
+      box-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.7),
+        0 0 20px rgba(255, 255, 255, 0.6),
+        0 0 30px rgba(255, 255, 255, 0.5),
+        0 0 40px rgba(255, 255, 255, 0.4),
+        0 0 50px rgba(255, 255, 255, 0.3);
+    }
+</style>
 
 </html>

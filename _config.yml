@@ -6,12 +6,12 @@ description: Juan Francisco Buñes Portfolio
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author: Juan Francisco Buñes
-street_address: TEST
+street_address: 
 city: Bahia Blanca
 state: Buenos Aires
 zip_code: 8000
 country: Argentina
-phone: TEST
+phone: +54 2915048247
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
