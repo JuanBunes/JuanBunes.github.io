@@ -47,15 +47,35 @@
                 </header>
                 <p>{{ content }}</p>
                 <div class="row">
-                    <div class="6u 12u$(small)">
-                        <p>My name is Juan Francisco Buñes, I am a fifth year Information Systems Engineering student at the Universidad Nacional del Sur in Bahia Blanca, Argentina. I have a passion for crafting innovative solutions. Proficient in a diverse range of languages and technologies, including but not limited to Java, Python, and web development frameworks. Proven track record of successful project management, demonstrated through the creation of a dynamic e-commerce platform integrating Laravel, PostgreSQL, Node.js, and React. Adaptable and quick to learn, I am ready to bring my enthusiasm and skills to a dynamic work environment. Excited about opportunities to contribute to cutting-edge projects and collaborate with talented teams in the tech industry. Open to exploring challenging roles that foster continued growth and development.</p>
+                    <div class="6u 12u$(small)" style="font-size: 1.3rem;">
+                        <p>My name is Juan Francisco Buñes, and I am an Information Systems Engineer from the
+                            Universidad Nacional del Sur in Bahía Blanca, Argentina. I have a passion for crafting
+                            innovative solutions and building impactful technology. Proficient in a diverse range of
+                            languages and tools, including Java, Python, JavaScript/TypeScript, Node.js, and modern web
+                            development frameworks. I enjoy tackling complex challenges and delivering high-quality
+                            results.
+
+                            I have a proven track record of full-stack development, including the creation of a complete
+                            website during my internship, where I built a Node.js and Firebase backend that enabled
+                            administrators to manage key site content without modifying the codebase, along with a
+                            responsive frontend using React.
+
+                            For my final engineering project, I developed an AI-powered platform for image generation
+                            and editing, integrating FastAPI, React/Next.js, Diffusers, custom image-processing
+                            algorithms, and local LLMs through Ollama. This experience strengthened my skills in backend
+                            design, frontend engineering, and applied artificial intelligence.
+
+                            Adaptable and quick to learn, I am eager to bring my enthusiasm and technical skills to
+                            dynamic work environments. Excited about opportunities to contribute to cutting-edge
+                            projects and collaborate with talented teams in the tech industry. Open to exploring
+                            challenging roles that foster continued growth and development.</p>
                     </div>
                     <div class="6u$ 12u$(small)">
                         <div class="image-container">
                             <img src=assets/images/gif02.gif alt="Your Image">
                             <div class="fading-border"></div>
-                          </div>
-                    </div> 
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -69,8 +89,8 @@
             </div>
             {% include tiles.html %}
         </section>
-        
-        
+
+
 
     </div>
 
@@ -80,42 +100,43 @@
 </body>
 
 <style>
-    html, body {
-      height: 100%;
+    html,
+    body {
+        height: 100%;
     }
-    
+
     img.two {
-      height: 50%;
-      width: 50%;
+        height: 50%;
+        width: 50%;
     }
 
     .image-container {
-      position: relative;
-      display: inline-block;
+        position: relative;
+        display: inline-block;
     }
 
     .fading-border {
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      top: 0;
-      left: 0;
-      box-shadow: 
-        0 0 10px rgba(255, 255, 255, 0),
-        0 0 20px rgba(255, 255, 255, 0),
-        0 0 30px rgba(255, 255, 255, 0),
-        0 0 40px rgba(255, 255, 255, 0),
-        0 0 50px rgba(255, 255, 255, 0);
-      transition: box-shadow 0.3s ease-in-out; 
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        box-shadow:
+            0 0 10px rgba(255, 255, 255, 0),
+            0 0 20px rgba(255, 255, 255, 0),
+            0 0 30px rgba(255, 255, 255, 0),
+            0 0 40px rgba(255, 255, 255, 0),
+            0 0 50px rgba(255, 255, 255, 0);
+        transition: box-shadow 0.3s ease-in-out;
     }
 
     .image-container:hover .fading-border {
-      box-shadow: 
-        0 0 10px rgba(255, 255, 255, 0.7),
-        0 0 20px rgba(255, 255, 255, 0.6),
-        0 0 30px rgba(255, 255, 255, 0.5),
-        0 0 40px rgba(255, 255, 255, 0.4),
-        0 0 50px rgba(255, 255, 255, 0.3);
+        box-shadow:
+            0 0 10px rgba(255, 255, 255, 0.7),
+            0 0 20px rgba(255, 255, 255, 0.6),
+            0 0 30px rgba(255, 255, 255, 0.5),
+            0 0 40px rgba(255, 255, 255, 0.4),
+            0 0 50px rgba(255, 255, 255, 0.3);
     }
 </style>
 
