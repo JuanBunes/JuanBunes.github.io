@@ -11,15 +11,15 @@ show_tile: false
 
 <div>
   <p>
-    Check my interactive Car-Portfolio!<br>
+    Check my interactive <b>Car-Portfolio!</b><br>
     A car mini game inspired by retro top-down racing videogames,<br>
-    built entirely in React/JS made to showcase my skills and projects.
+    built entirely in <b>React/JS</b> made to showcase my skills and projects.
   </p>
   <p>
-    It is a work in progress, some assets might be misplaced, missing or placeholders.<br>
-    Debug tools are ON until fully playable version is deployed.<br>
-    Compatible only on desktop for now.<br>
-    Hosted with AWS on a free S3 bucket.
+    It is a work in progress, some assets might be <b>misplaced</b>, <b>missing</b> or <b>placeholders</b>.<br>
+    Debug tools are <b>ON</b> until fully playable version is deployed.<br>
+    Compatible only on <b>desktop</b> for now.<br>
+    Hosted with <b>AWS</b> on a free <b>S3 bucket</b>.
   </p>
 </div>
 
