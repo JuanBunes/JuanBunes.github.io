@@ -2,6 +2,7 @@
 layout: page
 title: Interactive Car-Portfolio (WIP)
 landing-title: 'Interactive Car-Portfolio (WIP)'
+permalink: /interactive-portfolio/
 description: ''
 image: null
 author: null
