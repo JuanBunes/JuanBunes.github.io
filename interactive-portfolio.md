@@ -11,7 +11,7 @@ show_tile: false
 
 <div>
   <p>
-    Check my interactive <b>Car-Portfolio!</b><br>
+    Check my <b>interactive Car-Portfolio Game!</b><br>
     A <b>car mini game</b> inspired by retro top-down racing videogames,<br>
     built entirely in <b>React/JS</b> made to showcase my skills and projects.
   </p>
