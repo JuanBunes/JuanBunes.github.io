@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Interactive Car-Portfolio (WIP)
 landing-title: 'Interactive Car-Portfolio (WIP)'
 description: ''
