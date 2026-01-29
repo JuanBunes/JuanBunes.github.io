@@ -16,7 +16,7 @@ show_tile: false
     built entirely in <b>React/JS</b> made to showcase my skills and projects.
   </p>
   <p>
-    It is a work in progress, some assets might be <b>misplaced</b>, <b>missing</b> or <b>placeholders</b>.<br>
+    It is a <b>work in progress</b>, some assets might be <b>misplaced</b>, <b>missing</b> or <b>placeholders</b>.<br>
     Debug tools are <b>ON</b> until fully playable version is deployed.<br>
     Compatible only on <b>desktop</b> for now.<br>
     Hosted with <b>AWS</b> on a free <b>S3 bucket</b>.
